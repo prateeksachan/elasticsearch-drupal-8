@@ -57,10 +57,10 @@ install:
   - git clone --depth 1 --branch 8.0.x http://git.drupal.org/project/drupal.git
   # Get latest search_api
   - cd $TRAVIS_BUILD_DIR/../drupal/modules/
-  - git clone --depth 1 --branch 8.0.x http://git.drupal.org/project/drupal.git
+  - git clone --depth 1 --branch master ttp://git.drupal.org/sandbox/daeron/2091893.git
   # Get latest composer_manager
   - cd $TRAVIS_BUILD_DIR/../drupal/modules/
-  - git clone --depth 1 --branch 8.0.x http://git.drupal.org/project/composer_manager.git
+  - git clone --depth 1 --branch 8.x-1.x http://git.drupal.org/project/composer_manager.git
   # Restart apache and test it
   - sudo service apache2 restart
   - curl -v "http://localhost"
