@@ -71,7 +71,7 @@ before_script:
   - cd $TRAVIS_BUILD_DIR/../drupal
   # Update drupal core
   - git pull origin 8.0.x
-  - cd $TRAVIS_BUILD_DIR/../drupal/modules/search_api__8_x_
+  - cd $TRAVIS_BUILD_DIR/../drupal/modules/2091893
   # Update search_api
   - git pull origin master
   - cd $TRAVIS_BUILD_DIR/../drupal/modules/composer_manager
